@@ -1,7 +1,7 @@
-const students = [
+const champions = [
     {
-        firstName: "xdd",
-        lastName: "uwu",
+        Name: "xdd",
+        Title: "uwu",
         graduated: false,
         DOB: 0203,
         siblings: ["rch"],
@@ -32,13 +32,13 @@ const students = [
 ]
 const numbers = [1, 2, 3, 4, 5];
 
-numbers.forEach((number, index) => console.log(number, index));
+// numbers.forEach((number, index) => console.log(number, index));
 
 // students.forEach((students)=> console.log(students.firstName));
 
-const graduated = students.filter((student)=> student.graduated);
-console.log(graduated); 
+// const graduated = students.filter((student)=> student.graduated);
+// console.log(graduated); 
 
-const current = students.filter((student)=> student.graduated !== true);
-console.log(current); 
+// const current = students.filter((student)=> student.graduated !== true);
+// console.log(current); 
 
