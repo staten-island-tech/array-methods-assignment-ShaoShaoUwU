@@ -27,6 +27,14 @@ const champions = [
         relations: ["Vayne", "Tamn Kench"],
         region: "Runeterra",
     },
+    {
+        Name: "Zeri",
+        Title: "The Spark Of Zaun",
+        Human: true,
+        relations: ["Ekko", "Blitzcrank", "Jinx"],
+        region: "Zaun",
+    },
+    
 
 ]
 const numbers = [1, 2, 3, 4, 5];
