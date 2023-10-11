@@ -1,37 +1,45 @@
 const champions = [
     {
-        Name: "xdd",
-        Title: "uwu",
-        graduated: false,
-        DOB: 0203,
-        siblings: ["rch"],
-        age: function () {
-            return year - this.DOB;
-        },
+        Name: "Lux",
+        Title: "The Lady Of Luminosity",
+        Human: true,
+        relations: ["Garen", "J4", "Sylas"],
+        region: "Demacia",
     },
     {
-        firstName: "rrracjlor",
-        lastName: "actule",
-        graduated: true,
-        DOB: 2013,
-        siblings: ["ranch", "oeiw"],
-        age: function () {
-            return year - this.DOB;
-        },
+        Name: "Ahri",
+        Title: "The Nine Tailed Fox",
+        Human: false,
+        relations: ["Yasuo", "Sett", "Xayah", "Rakan",],
+        region: "Ionia",
     },
     {
-        firstName: "rachlsoer",
-        lastName: "0/10",
-        graduated: false,
-        DOB: 2023,
-        siblings: ["loserrachler", "rachlerest", "rachlererest"],
-        age: function () {
-            return year - this.DOB;
-        },
+        Name: "Seraphine",
+        Title: "The Starry Eyed Songstress",
+        Human: true,
+        relations: ["Skarner", "Caitlyn", "Bao"],
+        region: "Piltover",
     },
+    {
+        Name: "Evelynn",
+        Title: "Agony's Embrace",
+        Human: false,
+        relations: ["Vayne", "Tamn Kench"],
+        region: "Runeterra",
+    },
+
 ]
 const numbers = [1, 2, 3, 4, 5];
 
+
+champions.forEach((champion) => {
+    console.log(champion.Name);
+    champion.relations.forEach((relation) => {
+        console.log(relation);
+    });
+});
+const Human = champions.filter((champion)=> champion.Human); 
+console.log(Human); 
 // numbers.forEach((number, index) => console.log(number, index));
 
 // students.forEach((students)=> console.log(students.firstName));
