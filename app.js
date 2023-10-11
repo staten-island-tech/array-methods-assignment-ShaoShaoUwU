@@ -4,17 +4,17 @@ const students = [
         lastName: "uwu",
         graduated: false,
         DOB: 0203,
-        siblings: [""],
+        siblings: ["rch"],
         age: function () {
             return year - this.DOB;
         },
     },
     {
-        firstName: "ls0oer",
-        lastName: "clam",
+        firstName: "rrracjlor",
+        lastName: "actule",
         graduated: true,
         DOB: 2013,
-        siblings: [""],
+        siblings: ["ranch", "oeiw"],
         age: function () {
             return year - this.DOB;
         },
@@ -24,7 +24,7 @@ const students = [
         lastName: "0/10",
         graduated: false,
         DOB: 2023,
-        siblings: [""],
+        siblings: ["loserrachler", "rachlerest", "rachlererest"],
         age: function () {
             return year - this.DOB;
         },
@@ -34,10 +34,11 @@ const numbers = [1, 2, 3, 4, 5];
 
 numbers.forEach((number, index) => console.log(number, index));
 
-students.forEach((students)=> console.log(students.firstName));
+// students.forEach((students)=> console.log(students.firstName));
 
-const graduated = students.fiter((student)=> student.graduated);
+const graduated = students.filter((student)=> student.graduated);
 console.log(graduated); 
 
-const current = students.fiter((student)=> student.graduated !== true);
+const current = students.filter((student)=> student.graduated !== true);
 console.log(current); 
+
