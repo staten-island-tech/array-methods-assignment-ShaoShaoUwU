@@ -34,7 +34,7 @@ const champions = [
         relations: ["Ekko", "Blitzcrank", "Jinx"],
         region: "Zaun",
     },
-    
+
 
 ]
 const numbers = [1, 2, 3, 4, 5];
@@ -46,7 +46,7 @@ champions.forEach((champion) => {
         console.log(relation);
     });
 });
-const Human = champions.filter((champion)=> champion.Human); 
+const Human = champions.filter((champion) => champion.Human);
 console.log(Human); 
 // numbers.forEach((number, index) => console.log(number, index));
 
